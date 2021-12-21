@@ -4,7 +4,6 @@
 
 Our project seeks to create a model to predict housing prices using the Ames, Iowa housing dataset from Kaggle. The dataset includes 79 explanatory variables describing residential homes in Ames, Iowa. Kaggle provides training and test datasets and a text file with a description of the data.
 
-Through this project, I will:
 kaggle competition page: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
 ### Notebook Outline:
