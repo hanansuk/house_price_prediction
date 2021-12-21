@@ -2,26 +2,28 @@
 
 ### By Joy Moglia, Irene Shaffer, Hanan Sukenik
 
-In this project, I will be using a dataset from Kaggle which contains daily weather observations from numerous Australian weather stations, ranging from 2007 to 2017.
-After some data exploration, data wrangling and manipulation, I will be implementing several different machine learning algorithms to try and predict whether it will rain the next day or not.
-
-
+Our project seeks to create a model to predict housing prices using the Ames, Iowa housing dataset from Kaggle. The dataset includes 79 explanatory variables describing residential homes in Ames, Iowa. Kaggle provides training and test datasets and a text file with a description of the data.
 
 Through this project, I will:
+kaggle competition page: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
-- Explore the data
-- Perform the needed data wrangling and manipulation
-- Model and visualize the data
-- Implement different ML algorithms and examine their results
+### Notebook Outline:
+- Section 1: EDA
+- Section 2: Pre-Processing
+- Section 3: Feature Selection
+- Section 4: Split Training Data into Train (X_train, y_train) and Dev (X_test, y_test) Sets
+- Section 5: Find the Best Model
+- Section 6: Hyperparameter Tuning
+- Section 7: Generate Predictions using Test Data
+
+In Section 1 of this notebook, we explore the training and test data. In Section 2, we pre-process the data by inspecting the training data for NaN values, creating dummy variables for categorical data, and using scaler transforms to standardize and normalize numerical input variables. In Section 3, we do feature selection. In Section 4, we split our training data into train and dev sets. In Section 5, we test several models: random forest, gradient boosting for regression, support vector, and linear regression. We select the model with the best R-squared value. In Section 6, we conduct hyperparameter tuning using GridSearchCV. In Section 7, we use our final model to generate predictions on the test dataset.
 
 The project includes several files:
 
-- Chanan Sukenik COMPSCIX433.6- Final Project.ipynb - A Jupyter Notebook containing all of the code (Python)
-- Chanan Sukenik COMPSCIX433.6- Final Project.pdf - The written report
-- weatherAUS.csv- The dataset
+- Team3_JoyHananIrene_Final.ipynb - A Jupyter Notebook containing all of the code (Python)
+- test.csv- Test dataset
+- train.csv- Train dataset
+- data_description.txt- Data description text
 
-General Notes:
-- Weather is hard to predict, but I believe we got some solid results here
-- TLDR: Random Forest & Logistic Regression win
 
 Enjoy!
